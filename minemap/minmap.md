@@ -100,6 +100,16 @@ controls: true
 
 --
 
+<!-- ###### Text Mining Guide: http://guides.library.upenn.edu/penntdm-->
+<iframe src="http://guides.library.upenn.edu/penntdm"></iframe>
+
+--
+
+<!-- ###### Mapping Guide: http://guides.library.upenn.edu/historical_maps-->
+<iframe src="http://guides.library.upenn.edu/historical_maps"></iframe>
+
+--
+
 ### Other Contacts
 
 #### Digial Scholarship at Penn Libraries

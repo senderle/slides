@@ -8,7 +8,6 @@
     body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #222;
-  background-color: #f7f7f7;
   font-size: 100%;
 }
 
@@ -16,6 +15,7 @@
   position: absolute;
   top: 0; bottom: 0;
   left: 0; right: 0;
+  background-color: #f7f7f7;
 }
 
 .slide-content {
@@ -256,140 +256,103 @@ pre {
 }
 
 /*
+
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
 */
 
-code, pre {
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  overflow: auto;
-  padding: 6px 10px;
-}
-
-code {
-  padding: 0 5px;
-}
-
-pre>code {
-  margin: 0; padding: 0;
-  border: none;
-  background: transparent;
-}
-
-pre .comment,
-pre .template_comment,
-pre .diff .header,
-pre .javadoc {
-  color: #998;
-  font-style: italic
-}
-
-pre .keyword,
-pre .css .rule .keyword,
-pre .winutils,
-pre .javascript .title,
-pre .nginx .title,
-pre .subst,
-pre .request,
-pre .status {
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
   color: #333;
-  font-weight: bold
+  background: #f8f8f8;
 }
 
-pre .number,
-pre .hexcolor,
-pre .ruby .constant {
-  color: #099;
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
 }
 
-pre .string,
-pre .tag .value,
-pre .phpdoc,
-pre .tex .formula {
-  color: #d14
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
 }
 
-pre .title,
-pre .id {
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
   color: #900;
-  font-weight: bold
+  font-weight: bold;
 }
 
-pre .javascript .title,
-pre .lisp .title,
-pre .clojure .title,
-pre .subst {
-  font-weight: normal
+.hljs-subst {
+  font-weight: normal;
 }
 
-pre .class .title,
-pre .haskell .type,
-pre .vhdl .literal,
-pre .tex .command {
+.hljs-type,
+.hljs-class .hljs-title {
   color: #458;
-  font-weight: bold
+  font-weight: bold;
 }
 
-pre .tag,
-pre .tag .title,
-pre .rules .property,
-pre .django .tag .keyword {
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
   color: #000080;
-  font-weight: normal
+  font-weight: normal;
 }
 
-pre .attribute,
-pre .variable,
-pre .lisp .body {
-  color: #008080
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
 }
 
-pre .regexp {
-  color: #009926
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
 }
 
-pre .class {
-  color: #458;
-  font-weight: bold
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
 }
 
-pre .symbol,
-pre .ruby .symbol .string,
-pre .lisp .keyword,
-pre .tex .special,
-pre .prompt {
-  color: #990073
-}
-
-pre .built_in,
-pre .lisp .title,
-pre .clojure .built_in {
-  color: #0086b3
-}
-
-pre .preprocessor,
-pre .pi,
-pre .doctype,
-pre .shebang,
-pre .cdata {
+.hljs-meta {
   color: #999;
-  font-weight: bold
+  font-weight: bold;
 }
 
-pre .deletion {
-  background: #fdd
+.hljs-deletion {
+  background: #fdd;
 }
 
-pre .addition {
-  background: #dfd
+.hljs-addition {
+  background: #dfd;
 }
 
-pre .diff .change {
-  background: #0086b3
+.hljs-emphasis {
+  font-style: italic;
 }
 
-pre .chunk {
-  color: #aaa
+.hljs-strong {
+  font-weight: bold;
 }
 
 .slide-content {
@@ -446,6 +409,7 @@ iframe {
 }
 
   </style>
+    <script async src="http://localhost:35729/livereload.js"></script>
 </head>
 <body>
     <div class="progress">
@@ -546,6 +510,14 @@ iframe {
     <section class="slide-content"><iframe src="https://www.arcgis.com/apps/StorytellingSwipe/index.html?appid=4d2c4acd2fd841588062c912f6d56d48"></iframe></section>
   </div>
   <div class="slide hidden" id="slide-16">
+    <section class="slide-content"><p><!-- ###### Text Mining Guide: http://guides.library.upenn.edu/penntdm--></p>
+<iframe src="http://guides.library.upenn.edu/penntdm"></iframe></section>
+  </div>
+  <div class="slide hidden" id="slide-17">
+    <section class="slide-content"><p><!-- ###### Mapping Guide: http://guides.library.upenn.edu/historical_maps--></p>
+<iframe src="http://guides.library.upenn.edu/historical_maps"></iframe></section>
+  </div>
+  <div class="slide hidden" id="slide-18">
     <section class="slide-content"><h3 id="other-contacts">Other Contacts</h3>
 <h4 id="digial-scholarship-at-penn-libraries">Digial Scholarship at Penn Libraries</h4>
 <ul>
@@ -561,7 +533,7 @@ iframe {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-17">
+  <div class="slide hidden" id="slide-19">
     <section class="slide-content"><h3 id="other-mapping-tools">Other Mapping Tools</h3>
 <ul>
 <li><p>Google Fusion Tables 
@@ -576,19 +548,19 @@ iframe {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-18">
+  <div class="slide hidden" id="slide-20">
     <section class="slide-content"><iframe src="https://sites.google.com/site/fusiontablestalks/stories" width="1000" height="800"></iframe></section>
   </div>
-  <div class="slide hidden" id="slide-19">
+  <div class="slide hidden" id="slide-21">
     <section class="slide-content"><iframe src="https://cartodb.com/" width="1000" height="800"></iframe></section>
   </div>
-  <div class="slide hidden" id="slide-20">
+  <div class="slide hidden" id="slide-22">
     <section class="slide-content"><iframe src="hhttp://palladio.designhumanities.org" width="1000" height="800"></iframe></section>
   </div>
-  <div class="slide hidden" id="slide-21">
+  <div class="slide hidden" id="slide-23">
     <section class="slide-content"><iframe src="http://guides.library.upenn.edu/dhguide" width="1000" height="800"></iframe></section>
   </div>
-  <div class="slide hidden" id="slide-22">
+  <div class="slide hidden author-slide" id="slide-24">
     <section class="slide-content"><div class="author">
   <h1 class="name">Scott Enderle</h1>
     <h3 class="twitter">
@@ -646,7 +618,11 @@ function navigate(n) {
  * Updates the current URL to include a hashtag of the current page number.
  */
 function updateURL() {
-  window.history.replaceState({} , null, '#' + currentPosition());
+  try {
+    window.history.replaceState({} , null, '#' + currentPosition());
+  } catch (e) {
+    window.location.hash = currentPosition();
+  }
 }
 
 
