@@ -84,6 +84,7 @@ controls: true
 
 --
 
+StoryMap Example: https://storymap.knightlab.com/
 <iframe src="https://storymap.knightlab.com/" width="1000" height="800"></iframe>
 
 --
@@ -95,17 +96,17 @@ controls: true
 * Easy to use, but hard to customize and share without knowing ArcGIS
 
 --
-
+Story Maps Example: https://www.arcgis.com/apps/StorytellingSwipe/index.html?appid=4d2c4acd2fd841588062c912f6d56d48
 <iframe src="https://www.arcgis.com/apps/StorytellingSwipe/index.html?appid=4d2c4acd2fd841588062c912f6d56d48"></iframe>
 
 --
 
-<!-- ###### Text Mining Guide: http://guides.library.upenn.edu/penntdm-->
+Text Mining Guide: http://guides.library.upenn.edu/penntdm
 <iframe src="http://guides.library.upenn.edu/penntdm"></iframe>
 
 --
 
-<!-- ###### Mapping Guide: http://guides.library.upenn.edu/historical_maps-->
+Mapping Guide: http://guides.library.upenn.edu/historical_maps
 <iframe src="http://guides.library.upenn.edu/historical_maps"></iframe>
 
 --
