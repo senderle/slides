@@ -355,61 +355,8 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   font-weight: bold;
 }
 
-.slide-content {
-    width: 90%;
-    height: 90%;
-    margin: auto;
-}
-
-/* Mapping headers to specific margins */
-
-h1 {
-    margin: 10% 1% 5% 1%;
-}
-
-h2 {
-    margin: 5% 7.5% 0 7.5%;
-}
-
-h3 {
-    margin: 5% 7.5% 0 7.5%;
-}
-
-h4, h5, h6 {
-    margin: 2% 7.5% 0 7.5%;
-}
-
-h3 ~ h3 {
-    border-bottom: none;
-}
-
-/* All headers following other headers have reduced top margins */
-
-h2 ~ h2, h2 ~ h3, h2 ~ h4, h2 ~ h5, h2 ~ h6,
-h3 ~ h2, h3 ~ h3, h3 ~ h4, h3 ~ h5, h3 ~ h6,
-h4 ~ h2, h4 ~ h3, h4 ~ h4, h4 ~ h5, h4 ~ h6,
-h5 ~ h2, h5 ~ h3, h5 ~ h4, h5 ~ h5, h5 ~ h6,
-h6 ~ h2, h6 ~ h3, h6 ~ h4, h6 ~ h5, h6 ~ h6 {
-    margin: 1% 7.5% 0 7.5%;
-}
-
-/* All other elements following a header have auto top and bottom margins, 
- * but wider side margins. This allows slides that don't have headers to 
- * use the full width, but slides that do have headers to have plenty of 
- * whitespace. */
-
-h1 ~ *, h2 ~ *, h3 ~ *, h4 ~ *, h5 ~ *, h6 ~ * {
-    margin: auto 7.5% auto 15%;
-}
-
-iframe {
-    width: 100%;
-    height: 85%;
-    border: none;
-}
 
   </style>
-    <script async src="http://localhost:35729/livereload.js"></script>
 </head>
 <body>
     <div class="progress">
